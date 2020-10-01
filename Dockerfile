@@ -1,5 +1,6 @@
 FROM openliberty/open-liberty:springBoot2-ubi-min as staging
 USER root
+COPY . .
 COPY spring-boot-data-jpa/target/spring-boot-data-jpa-0.0.1-SNAPSHOT.jar /staging/fatjpa.jar
 
 RUN springBootUtility thin \
