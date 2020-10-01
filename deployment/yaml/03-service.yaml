@@ -11,7 +11,7 @@ spec:
   ports:
     - name: my-http
       port: 8083
-      targetPort: my-http
+      targetPort: 8080
   selector:
     app: wcare-application
     subname: library-app-backend
