@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Built-By: sarka
+Build-Jdk: 12.0.1
+Implementation-Title: spring-boot-data-jpa
+Implementation-Version: 0.0.1-SNAPSHOT
+Implementation-Vendor-Id: spring-boot-data-jpa
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-boot
+ -starter-parent/spring-boot-data-jpa
+Created-By: Maven Integration for Eclipse
+
