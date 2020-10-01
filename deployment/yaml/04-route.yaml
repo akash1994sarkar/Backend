@@ -7,7 +7,6 @@ metadata:
     app: wcare-application
     subname: library-app-backend
 spec:
-  path: /
   to:
     kind: Service
     name: library-app-backend
