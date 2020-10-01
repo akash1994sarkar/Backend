@@ -13,4 +13,4 @@ spec:
     name: library-app-backend
     weight: 100
   port:
-    targetPort: my-http
+    targetPort: 8080
