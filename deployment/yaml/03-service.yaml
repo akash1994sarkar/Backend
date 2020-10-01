@@ -9,9 +9,18 @@ metadata:
 spec:
   type: ClusterIP
   ports:
-    - name: my-http
-      port: 8083
-      targetPort: 8080
+    - name: 9080-tcp
+      port: 9080
+      targetPort: 9080
+      protoco: TCP
+    - name: 9443-tcp
+      port: 9443
+      targetPort: 9443
+      protoco: TCP
+    - name: http
+      port: 9082
+      targetPort: 9082
+      protoco: TCP
   selector:
     app: wcare-application
     subname: library-app-backend
